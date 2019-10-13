@@ -1,0 +1,57 @@
+/* ==== Import Section Start ==== */
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Dosis|Libre+Baskerville|Lora|Playfair+Display&display=swap');
+/* ==== Import Section End ==== */
+
+/* ====  Menu Icon Section Start ==== */
+.menu-icon-section {
+   display: block; 
+}
+#mainMenuIcon {
+    width: 5vw;
+    height: 5vw;
+}
+/* ====  Menu Icon Section End ==== */
+
+/* ====  Navbar Section Start ==== */
+.hidden {
+    display: none;
+}
+.navbar-main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.navbar-links-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    background-color: transparent;
+    opacity: 75%;
+    width: 100vw;
+    height: 10vw;
+  
+}
+
+.links {
+    color: black;
+    font-size: 3vw;
+    font-family: 'Libre Baskerville';
+    text-decoration: none;
+    margin-right: 4vw;
+}
+.links:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+
+/* ==== Navbar Section End ==== */
+
+/* ==== Body Start ==== */
+body {
+background: url(./images/backgrounds/paper5.png);
+}
+/* ==== Body End ==== */
